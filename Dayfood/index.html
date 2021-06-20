@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Day Food </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/Navigation.css" type="text/css">
+<link rel="stylesheet" href="CSS/Home.css" type="text/css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.min.css">
+<link rel="stylesheet" href="CSS/bootstrap.min.css">
+<link rel="stylesheet" href="CSS/ionicons-2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="CSS/footer.css" type="text/css">
+
+<style>
+h3{
+font-size:35px;
+color:#922B21 ;
+text-align:center;
+}
+
+h2{
+font-size:25px;
+color:#FFFCFC  ;
+text-align:left;
+}
+.navigation-bar a {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+</style>
+</head>
+<body style="background-color:#F4F6F6 ">
+<!--Navigation Bar-->
+<div class="topnav" >
+
+
+	<a href="newsandpromotion.html" ><i class="fa fa-sign-in-alt"></i> News and promotions</a>
+	<a href="order.php" ><i class="fa fa-sign-in-alt"></i> Order</a>
+	<a href="gallery.html" ><i class="fas fa-book"></i> Gallery</a>
+    <a class="active" href="#home"><i class="fa fa-home"></i> Day Foods</a>
+</div>
+
+
+<div class="bg-image img1"></div>
+
+
+<div class="bg-text">Day Food</div>
+</div>
+</div>
+<div >
+<div style="background-color:#C5">
+<h3 >About Us</h3>
+</div>
+<h2 style="background-color:#8F0E00 ">Vision</h2>
+<p style="font-weight:bold;text-align:center;line-height:30px">"We imagine a world where there’s no such thing as a bad cup of coffee and all coffee farmers live prosperously."</p>
+
+<h2 style="background-color:#8F0E00 ">Mission</h2>
+<p style="font-weight:bold;text-align:center;line-height:30px">"Our mission is to give our customers a place to celebrate life’s special moments by offering the best food, service, and ambiance in Colombo."
+
+<h2 style="background-color:#8D2222 ">Founders</h2>
+</p>
+
+
+<div class="container" STYLE="  font-family:sans-serif;">
+  <img src="Pictures/01.jpg" alt="Avatar" style="width:100px">
+  <p style="font-weight: bold"><span>Robert Downey Jr</span>- CEO at Day Food.</p>
+  <p>Life is like a restaurant; you can have anything you want as long as you are willing to pay the price</p>
+</div>
+
+<div class="container"  STYLE="  font-family:sans-serif;" >
+  <img src="Pictures/11.jpg" alt="Avatar" style="width:100px">
+  <p style="font-weight: bold"><span>Chris Evans</span>- Manager at Day Food.</p>
+  <p>Nothing goes perfectly, especially when you're opening a restaurant. </p>
+</div>
+<div style="background-color:#C5">
+<h3 >Contact Us</h3>
+</div>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="User.html">
+      
+        <div class="row" >
+          <div class="col-50">
+
+            <label  style="font-weight:bold;color:black;font-family:calibri"><i class="fas fa-user"></i> Name</label>
+  <input style="font-weight:bold;color:black;font-family:calibri" type="text" class="form-field" required  />
+            <label style="font-weight:bold;color:black;font-family:calibri" for="bname"><i class="fa fa-envelope"></i> Mail address</label>
+  <input style="font-weight:bold;color:black;font-family:calibri" type="text"  class="form-field" required  />
+            <label  style="font-weight:bold;color:black;font-family:calibri"><i class="fas fa-phone"></i> Contact No</label>
+  <input style="font-weight:bold;color:black;font-family:calibri" for="bauthor" type="text"  class="form-field" required  />
+            <label  style="font-weight:bold;color:black;font-family:calibri"><i class="fas fa-envelope"></i> Message</label>
+  <input style="font-weight:bold;color:bla;font-family:calibri" for="bauthor" type="text"  class="form-field" required  />
+
+
+<div class="button_cont"  align="center"><button style="font-size:20px;font-weight:bold;color:white;font-family:calibri;text-decoration:none;bord;border-radius:10%;border:2px;padding:20px;width:200px;"  class="btn btn-sm btn-danger 7" >Send</button></div>
+    
+          </div>
+
+      
+      </div>
+
+
+  </form>
+</div>
+</div>
+</div>
+         
+
+
+
+
+</div>
+  <div class="footer-dark">
+        <footer>
+
+            <div class="container10" style="text-align: center;">
+                <div class="row">
+				
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3 style="color:white">Resources</h3>
+                        <ul style=" text-align: left; display: inline-block; ">
+                            <li ><a href="#">Copyright</a></li>
+                            <li ><a href="#">Open acess</a></li>
+                            <li><a href="#">Licensing</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3 style="color:white;">About</h3>
+                        <ul style=" text-align: left; display: inline-block; ">
+                            <li ><a href="#">History</a></li>
+                            <li ><a href="#">Awards</a></li>
+                            <li ><a href="#">Founders</a></li>
+                            <li ><a href="#">Accountability</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3 style="color:white;">Contact Us</h3>
+						<div style="text-align: left; display: inline-block;" >
+						   <p>  Mobile No - 00000000</p>
+                           <p>Land Line - 000000000</p>
+                           <p>E-mail	  - postbox12@gmail.com</p>
+                           <p >Address   - No.10,Main Road, City</p>
+                       </div>
+                    </div>
+                    <div class="col item social">
+					<a href="#"><i class="icon ion-social-facebook"></i></a>
+					<a href="#"><i class="icon ion-social-twitter"></i></a>
+					<a href="#"><i class="icon ion-social-snapchat"></i></a>
+					<a href="#"><i class="icon ion-social-instagram"></i></a>
+					</div>
+                </div>
+                <p class="copyright">Day Food © 2020</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+
+</html>
